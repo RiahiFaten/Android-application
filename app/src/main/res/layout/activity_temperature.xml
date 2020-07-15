@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TemperatureActivity">
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:background="#23C129"
+        android:text=" Les températures enregistrées"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textViewTitre"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Mesure                       Date de mesure"
+        android:textColor="#000000"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView1"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/tempMesures"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:maxLines="20"
+        android:minLines="4"
+        android:singleLine="false"
+        android:textColor="#000000"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.58"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewTitre"
+        app:layout_constraintVertical_bias="0.0"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:background="#23C129"
+        android:text=" Ajouter une mesure"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tempMesures"
+        app:layout_constraintVertical_bias="0.43"
+        tools:ignore="MissingConstraints" />
+
+    <EditText
+        android:id="@+id/degres"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:layout_marginStart="6dp"
+        android:layout_marginLeft="6dp"
+        android:layout_marginEnd="6dp"
+        android:layout_marginRight="6dp"
+        android:layout_marginBottom="100dp"
+        android:hint="Degrés"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/textView1"
+        app:layout_constraintStart_toEndOf="@+id/textView1"
+        app:layout_constraintTop_toBottomOf="@+id/textView2"
+        app:layout_constraintVertical_bias="0.0"
+        tools:ignore="MissingConstraints" />
+
+    <EditText
+        android:id="@+id/date"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:layout_marginStart="6dp"
+        android:layout_marginLeft="6dp"
+        android:layout_marginEnd="6dp"
+        android:layout_marginRight="6dp"
+        android:layout_marginBottom="100dp"
+        android:hint="Date de mesure"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/textView1"
+        app:layout_constraintStart_toEndOf="@+id/textView1"
+        app:layout_constraintTop_toBottomOf="@+id/degres"
+        app:layout_constraintVertical_bias="0.0"
+        tools:ignore="MissingConstraints" />
+
+
+    <Button
+        android:id="@+id/buttonAjouter"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginEnd="9dp"
+        android:layout_marginRight="9dp"
+        android:layout_marginBottom="100dp"
+        android:text="Ajouter"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/date"
+        app:layout_constraintVertical_bias="0.060000002"
+        tools:ignore="MissingConstraints">
+
+    </Button>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ProfileActivity">
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:orientation="vertical"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="155dp">
+
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textViewWelcome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginStart="150dp"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="47dp"
+        android:layout_marginEnd="150dp"
+        android:layout_marginRight="150dp"
+        android:text="Bienvenue"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/consulterProgrammes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginStart="134dp"
+        android:layout_marginLeft="134dp"
+        android:layout_marginEnd="134dp"
+        android:layout_marginRight="134dp"
+        android:layout_marginBottom="24dp"
+        android:background="#23C129"
+        android:text="  Consulter Programmes  "
+        android:textColor="#FFFFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewWelcome"
+        app:layout_constraintVertical_bias="0.13" />
+
+    <Button
+        android:id="@+id/ajouterProgrammes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginStart="134dp"
+        android:layout_marginLeft="134dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="134dp"
+        android:layout_marginRight="134dp"
+        android:layout_marginBottom="24dp"
+        android:background="#23C129"
+        android:text="     Ajouter Programmes     "
+        android:textColor="#FFFFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/consulterProgrammes"
+        app:layout_constraintVertical_bias="0.060000002" />
+
+    <Button
+        android:id="@+id/activerRappels"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginStart="134dp"
+        android:layout_marginLeft="134dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="134dp"
+        android:layout_marginRight="134dp"
+        android:layout_marginBottom="24dp"
+        android:background="#23C129"
+        android:text="      Rappeler  les  Prises      "
+        android:textColor="#FFFFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ajouterProgrammes"
+        app:layout_constraintVertical_bias="0.060000002" />
+
+    <Button
+        android:id="@+id/consulterTemperatures"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginStart="134dp"
+        android:layout_marginLeft="134dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="134dp"
+        android:layout_marginRight="134dp"
+        android:layout_marginBottom="24dp"
+        android:background="#23C129"
+        android:text=" Consulter Températures "
+        android:textColor="#FFFFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/activerRappels"
+        app:layout_constraintVertical_bias="0.060000002" />
+    <Button
+        android:id="@+id/buttonLogout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginStart="134dp"
+        android:layout_marginLeft="134dp"
+        android:layout_marginEnd="134dp"
+        android:layout_marginRight="134dp"
+        android:layout_marginBottom="24dp"
+        android:text="Se déconnecter"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

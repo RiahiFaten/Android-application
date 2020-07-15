@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+       <TextView
+            android:id="@+id/nom"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="nom "
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+           tools:ignore="MissingConstraints" />
+
+        <TextView
+            android:id="@+id/date_debut"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="date_debut"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+            tools:ignore="MissingConstraints" />
+
+        <TextView
+            android:id="@+id/durée"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="durée"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+            tools:ignore="MissingConstraints" />
+
+        <TextView
+            android:id="@+id/maladie"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="maladie"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+            tools:ignore="MissingConstraints" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
